@@ -6,7 +6,7 @@ import * as Sentry from "@sentry/vue";
 Vue.config.productionTip = false;
 Sentry.init({
   Vue,
-  dsn: "https://1fecee35d52d0c91e3c21faa572c9cbd@o4506386935185408.ingest.sentry.io/4506386975555584",
+  dsn: "https://f54565d3c70c1dd34d75e9b21d85b126@o4506386935185408.ingest.sentry.io/4506387478544384",
   integrations: [
     new Sentry.BrowserTracing({
       routingInstrumentation: Sentry.vueRouterInstrumentation(router),
